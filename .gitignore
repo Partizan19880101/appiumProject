@@ -1,0 +1,17 @@
+.settings/
+
+# Intellij
+.idea/
+.gradle
+build
+*.iml
+*.apk
+
+# Maven
+logs/
+target/
+test-output/
+
+# Allure
+allure-report
+.allure

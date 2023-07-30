@@ -28,7 +28,7 @@ public class ApkInfoHelper {
         }
         try {
             //вызываем bash команду aapt dumb banding путь к apk, чтобы прочитать AndroidManifest.xml из apk файла
-            apkInfo = executeSh("aapt dumb badging " + ConfigReader.emulatorConfig.app());
+            apkInfo = executeSh("C:\\Users\\Pavel_Zuyonak\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\aapt dumb badging " + ConfigReader.emulatorConfig.app());
         } catch (IOException | InterruptedException | ExecutionException e){
             throw new RuntimeException(e);
         }
